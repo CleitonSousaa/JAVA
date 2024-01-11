@@ -9,15 +9,18 @@ public class OperadoresAritmeticos {
 		int numeroIncremento = 5;
 		int numeroDecremento = 5;
 		int valor;
+		int x = 4;
 		
 		numeroIncremento++;
 		numeroDecremento--;
 		valor = 5 + numeroIncremento++;
+		x += 2; // += -= *= /= %=
 		
 		System.out.println("A média é igual a " + m);
 		System.out.println("Número incrementado é: " + numeroIncremento);
 		System.out.println("Número decrementado é: " + numeroDecremento);
 		System.out.println("Valor é: " + valor);
+		System.out.println("X é: " + x);
 
 	}
 
